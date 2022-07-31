@@ -22,10 +22,10 @@ let mMoveEvt = new MouseEvent('mousemove', {
     bubbles: true,
     cancelable: true,
     view: window,
-    clientX: 700,
-    clientY: 700,
-    pageX: 700,
-    pageY: 700
+    clientX: 500,
+    clientY: 400,
+    pageX: 500,
+    pageY: 400
 });
 
 let videoForward = () => {  //快进操作，通过模拟按一次右方向键实现
